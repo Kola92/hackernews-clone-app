@@ -189,14 +189,14 @@ class Search extends Component {
 
     return (
       <form onSubmit={onSubmit}>
-        {children}{" "}
+        {/* {children}{" "} */}
         <input
           type="search"
           value={value}
           onChange={onChange}
           ref={(el) => (this.input = el)}
         />
-        <button type="submit">{children}</button>
+        <button class="btn-search" type="submit">{children}</button>
       </form>
     );
   }

@@ -57,3 +57,17 @@ cursor: pointer;
 border-radius: 0;
 border-bottom: 1px solid #38BB6C;
 }
+
+@media screen and (max-width: 700px) {
+  .table-header > span {
+    width:35% !important;
+  }
+  .table-row > span {
+    width:35% !important;
+  }
+}
+@media screen and (max-width: 397px) {
+  .btn-search {
+    margin-top: 1.2rem;
+  }
+}

@@ -1,1 +1,1 @@
-This project can be found online here: [Hacker News Clone App](https://github.com/facebook/create-react-app).
+This project can be found online here: [Hacker News Clone App](https://hackernews-cloneapp.netlify.app).
